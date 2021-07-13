@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="img/logo/Horoscope.jpg" alt="Bot logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Horoscope Channel</h3>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![Platform](https://img.shields.io/badge/platform-reddit-orange.svg)](https://www.reddit.com/user/Wordbook_Bot)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center"> Tools of Creation
+    <br> 
+</p>
 
-### `npm test`
+## 📝 Lists of Resources
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [About](#about)
+- [Demo / Working](#demo)
+- [How it works](#working)
+- [Usage](#usage)
+- [Getting Started](#getting_started)
+- [Deploying your own bot](#deployment)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-### `npm run build`
+## 🧐 About <a name = "about"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Hello everybody! <b>'Astrology Channel'</b> or <b>'Horoscope Channel'</b>, is a Horoscope project using React. Users will be able to sign up for their daily horoscope news and more. Astrology news is used for Social Fun Events that  is user oriented.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎥 Demo / Working <a name = "demo"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Working](https://media2.giphy.com/media/WmtnVfTNbDigG32A8u/giphy.gif?cid=ecf05e47ha3jz1pgrbcmyo8wow90kg9l1ydhh3i517orf0br&rid=giphy.gif&ct=g)
 
-### `npm run eject`
+## 💭 How it works <a name = "working"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The bot first extracts user data from the retrieved data and then fetches user's astrology sign, send, example and source from the Astrology API.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If somehow there is missing data in the Horoscope Channel, then returns a 404 response upon which the bot then tries to fetch results form the Astrology API.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The entire bot is written in Python 3.8.2
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🎈 Usage <a name = "usage"></a>
 
-## Learn More
+To use this bot, enter in your DOB:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+01/01/2000
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The first part, i.e. "!dict" **is not** case sensitive.
 
-### Code Splitting
+The bot will then give you the Oxford Dictionary (or Urban Dictionary; if the word does not exist in the Oxford Dictionary) definition of the word as a comment reply.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+What things you need to install the software and how to install them.
 
-### Advanced Configuration
+```
+1. npm init
+2. npm install bootstrap --save
+3. npx create-react-app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 Deploying your own bot <a name = "deployment"></a>
 
-### Deployment
+To see an example project on how to deploy your bot, please see my own configuration:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Heroku**: [To Be Announced]
 
-### `npm run build` fails to minify
+## ⛏️ Built Using <a name = "built_using"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [PRAW](https://praw.readthedocs.io/en/latest/) - Python Reddit API Wrapper
+- [Heroku](https://www.heroku.com/) - SaaS hosting platform
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
