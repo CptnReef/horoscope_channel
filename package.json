@@ -38,7 +38,9 @@
   },
   "description": "<p align=\"center\">\r   <a href=\"\" rel=\"noopener\">\r  <img width=200px height=200px src=\"img/logo/Horoscope.jpg\" alt=\"Bot logo\"></a>\r </p>",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
   "repository": {
     "type": "git",
     "url": "cptnreef"
