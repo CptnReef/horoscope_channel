@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="img/logo/Horoscope.jpg" alt="Bot logo"></a>
+ <img width=200px height=200px src="https://static.vecteezy.com/system/resources/thumbnails/000/593/641/small/Sci073.jpg" alt="Bot logo"></a>
 </p>
 
 <h3 align="center">Horoscope Channel</h3>
@@ -37,7 +37,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Hello everybody! <b>'Astrology Channel'</b> or <b>'Horoscope Channel'</b>, is a Horoscope project using React. Users will be able to sign up for their daily horoscope news and more. Astrology news is used for Social Fun Events that  is user oriented.
+Hello everybody! <b>'Astrology Channel'</b> or <b>'Horoscope Channel'</b>, is a Horoscope project using React. Users will be able to sign up for their daily horoscope news and more. Astrology news is used for Social Fun Events that is user oriented.
 
 ## 🎥 Demo / Working <a name = "demo"></a>
 
@@ -62,7 +62,6 @@ To use this bot, enter in your DOB:
 The first part, i.e. "!dict" **is not** case sensitive.
 
 The bot will then give you the Oxford Dictionary (or Urban Dictionary; if the word does not exist in the Oxford Dictionary) definition of the word as a comment reply.
-
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 

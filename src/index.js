@@ -3,19 +3,614 @@ import ReactDom from 'react-dom'
 
 function BookList() {
   return (
-    <section> 
       <Book/>
     </section>
     );
 }
 
-const Book = () => {
-  return <article>
-   <Image />
-  </article>
+      <section className="backgroundclr">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 col-xs-12 tpbanner_align">
+              <a href="#" className="header_border1 hidden-xs font12">Advertise With Us</a>
+              <div className="header_border hidden-xs font12">Language:
+                <ul>
+                  <li className="dropdown lang_dropdown">
+                    <a href="#" data-toggle="dropdown" className="dropdown-toggle">EN <span className="caret" /></a>
+                    <ul className="dropdown-menu">
+                      <li><a href="#">Hindi</a></li>
+                      <li><a href="#">English</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div className="clearfix visible-xs-block" />
+              <span className="header_border header_text hidden-xs font12">Follow Us</span>
+              <span className="head_icons"><a href="#"><i className="fa fa-facebook-square header_icons fa-lg" /></a>
+                <a href="#"><i className="fa fa-twitter-square header_icons fa-lg" /></a>
+                <a href="#"><i className="fa fa-google-plus-square header_icons fa-lg" aria-hidden="true" /></a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="container">
+        <div className="row text-right">
+          <div className="col-md-5 col-sm-2" />
+          <div className="col-md-7 col-sm-10 col-xs-12">
+            <div className="clearfix visible-sm-block" />
+            <div className="row">
+              <div className="col-sm-2 col-xs-2 head_signs">
+                <a href="vasthu.html">
+                  <div className="bg-info header_bg center-block">
+                    <img src="./files/images/home1.png" alt="Image missing" />
+                  </div>
+                  <div className="text-center info1 font13 hidden-xs">Vasthu Shasthra</div>
+                </a>
+              </div>
+              <div className="col-sm-2 col-xs-2 text-center head_signs">
+                <a href="#">
+                  <div className="bg-info header_bg center-block">
+                    <img src="./files/images/calendar.png" alt="Image missing" />
+                  </div>
+                  <div className="text-center info1 font13 hidden-xs">Appointment</div>
+                </a>
+              </div>
+              <div className="col-sm-2 col-xs-2 text-center head_signs">
+                <a href="#">
+                  <div className="bg-info header_bg center-block">
+                    <img src="./files/images/heart.png" alt="Image missing" />
+                  </div>
+                  <div className="text-center info1 font13 hidden-xs">Love Tarot</div>
+                </a>
+              </div>
+              <div className="col-sm-2 col-xs-2 text-center head_signs">
+                <a href="#">
+                  <div className="bg-info header_bg center-block">
+                    <img src="./files/images/man-with-tie.png" alt="Image missing" />
+                  </div>
+                  <div className="text-center info1 font13 hidden-xs">Career Match</div>
+                </a>
+              </div>
+              <div className="col-sm-2 col-xs-2 text-center head_signs">
+                <a href="#">
+                  <div className="bg-info header_bg center-block">
+                    <img src="./files/images/yin-and-yang.png" alt="Image missing" />
+                  </div>
+                  <div className="text-center info1 font13 hidden-xs">Ying Yang</div>
+                </a>
+              </div>
+              <div className="col-sm-2 col-xs-2 text-center head_signs">
+                <a href="#">
+                  <div className="bg-info header_bg center-block">
+                    <img src="./files/images/calendar.png" alt="Image missing" />
+                  </div>
+                  <div className="text-center info1 font13 hidden-xs">Daily Tarot</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header>
+        <nav className="navbar">
+          <div className="container">
+            <div className="row">
+              <div className="navbar-header col-md-4 col-sm-5 col-xs-12 nav_head">
+                <button type="button" className="navbar-toggle m-t-20 font18" data-toggle="collapse" data-target="#myNavbar">
+                  <span>
+                    <i className="fa fa-bars" aria-hidden="true" />
+                  </span>
+                </button>
+                <a href="index.html">
+                  <img src="./files/images/leo-sign1.png" alt="logo missing" className="brand_name" /> <span className="text-info font42">Astrology</span>
+                </a>
+                <p className="brand_name text-primary font12 head_info">KNOW YOUR SIGN</p>
+              </div>
+              <div className="navbar-collapse collapse col-md-8 col-sm-7 col-xs-12 nav navbar-right nav_menubar" id="myNavbar">
+                <ul className="nav navbar-nav header_nav">
+                  <li className="header_li active">
+                    <a href="index.html" className="text-info">
+                      <i className="fa fa-home" aria-hidden="true" />
+                    </a>
+                  </li>
+                  <li className="header_li">
+                    <a href="signs.html" className="text-info">Astrology Signs</a>
+                  </li>
+                  <li className="header_li">
+                    <a href="gemstones.html" className="text-info">Gemstones</a>
+                  </li>
+                  <li className="header_li">
+                    <a href="love_compatibility.html" className="text-info"><i className="fa fa-heart" />  Compatibility</a>
+                  </li>
+                  <li className="header_li">
+                    <a href="games.html" className="text-info">Games</a>
+                  </li>
+                  <li className="header_li">
+                    <a href="blog.html" className="text-info">Blog</a>
+                  </li>
+                  <li className="dropdown dropdown_modified">
+                    <a data-toggle="dropdown" href="#" className="text-info dropdown-toggle">Pages <span className="caret" /></a>
+                    <ul className="dropdown-menu dropdown_mod" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOut">
+                      <li><a href="index2.html">Home Page2</a></li>
+                      <li><a href="blog_single.html">Blog Single Post</a></li>
+                      <li><a href="blog_category.html">Blog Category</a></li>
+                      <li><a href="signs_single_post.html">Signs Single Page</a></li>
+                      <li><a href="gemstones_single.html">Gemstones Single Page</a></li>
+                      <li><a href="love_compatibility_result.html">Love Compatibility Result</a></li>
+                      <li><a href="elements.html">Elements</a></li>
+                    </ul>
+                  </li>
+                  <li className="header_li">
+                    <a href="contact_us.html" className="text-info">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section className="home_revolution_slider">
+        <div className="tp-banner-container rev_slider_wrapper fullwidthbanner-container" data-alias="news-hero72">
+          <div className="tp-banner-slider">
+            <ul>
+              <li data-index="rs-1" data-transition="random-premium" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed={1000} data-rotate={0}>
+                <img src="./files/images/astro_slider_bg1.jpg" alt="image-missing" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax={10} data-no-retina data-kenburns="on" data-duration={12000} data-ease="Linear.easeNone" data-scalestart={100} data-scaleend={112} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" />
+                {/* LAYER NR. 3 */}
+                <div className="tp-caption home_subtitle sft tp-resizeme rs-parallaxlevel-7 hidden-xs" data-x="center" data-hoffset={0} data-y={-20} data-voffset={-140} data-speed={1000} data-start={3500} data-easing="Power4.easeInOut" data-endeasing="power1.easeIn" data-splitin="words" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed={300} style={{zIndex: 3, whiteSpace: 'nowrap', color: '#ffffff', fontWeight: 700, fontSize: 24, fontFamily: '"hind", sans-serif', lineHeight: '30pt'}}>Welcome to
+                </div>
+                {/* LAYER NR. 2 */}
+                <div className="tp-caption customin customout tp-resizeme" data-x="center" data-hoffset={0} data-y={20} data-voffset={-100} data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed={1000} data-start={4500} data-easing="Back.easeOut" data-endspeed={300} style={{zIndex: 4, color: '#fff', fontSize: 40, fontWeight: 700, fontFamily: '"montserrat", sans-serif'}}>The Best Astrology Template
+                </div>
+                <div className="tp-caption zoomIn" data-x="center" data-hoffset={0} data-y={-10} data-speed={2500} data-start={1000} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/sun.png" alt="image-missing" />
+                </div>
+                <div className="tp-caption lfb hidden-xs" data-x={680} data-hoffset={0} data-y={317} data-speed={2500} data-start={1500} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/4.PNG" alt="image-missing" />
+                </div>
+                <div className="tp-caption lfb hidden-xs" data-x={390} data-hoffset={0} data-y={300} data-speed={2500} data-start={2000} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/6.PNG" alt="image-missing" />
+                </div>
+                <div className="tp-caption lft hidden-xs" data-x={760} data-hoffset={0} data-y={315} data-speed={2500} data-start={2500} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/5.PNG" alt="image-missing" />
+                </div>
+                <div className="tp-caption lfr hidden-xs" data-x={300} data-hoffset={0} data-y={350} data-speed={2500} data-start={3000} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/2.PNG" alt="image-missing" />
+                </div>
+                <div className="tp-caption lft hidden-xs" data-x={900} data-hoffset={0} data-y={300} data-speed={2500} data-start={3000} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/8.PNG" alt="image-missing" />
+                </div>
+                <div className="tp-caption lfr hidden-xs" data-x={50} data-hoffset={0} data-y={290} data-speed={2500} data-start={1500} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/3.PNG" alt="image-missing" />
+                </div>
+                <div className="tp-caption lfr hidden-xs" data-x={240} data-hoffset={0} data-y={440} data-speed={2500} data-start={2000} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/7.PNG" alt="image-missing" />
+                </div>
+                <div className="tp-caption lfb hidden-md hidden-xs hidden-sm" data-x={800} data-hoffset={0} data-y={195} data-speed={2500} data-start={2500} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/6.PNG" alt="image-missing" />
+                </div>
+              </li>
+              <li data-index="rs-2" data-transition="random-premium" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed={1000} data-rotate={0}>
+                <img src="./files/images/astro_slider2.jpg" alt="image-missing" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax={10} data-no-retina data-kenburns="on" data-duration={12000} data-ease="Linear.easeNone" data-scalestart={100} data-scaleend={112} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" />
+                {/* LAYER NR. 1 */}
+                <div className="tp-caption zoomIn" data-x="center" data-y={0} data-speed={2500} data-start={1000} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/leo-sign1.png" alt="image-missing" />
+                </div>
+                <div className="tp-caption home_title sfl tp-resizeme" data-x="center" data-y={50} data-splitin="chars" data-speed={300} data-start={2000} data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed={300} style={{zIndex: 3, color: '#fff', fontSize: 38, letterSpacing: 2, fontFamily: '"Montserrat",sans-serif', fontWeight: 700}}>Know Your Astrology
+                </div>
+                <div className="tp-caption skewfromleftshort hidden-xs" data-x="center" data-hoffset={0} data-y={125} data-speed={800} data-start={5000} data-easing="Power4.easeOut" data-endspeed={300} data-endeasing="Power1.easeIn" data-captionhidden="off" style={{zIndex: 6, color: '#fff', fontSize: 24}}>"The unreal has no existence; the real never ceases to be.
+                </div>
+                <div className="tp-caption skewfromrightshort hidden-xs" data-x="center" data-hoffset={0} data-y={160} data-speed={800} data-start={5000} data-splitin="chars" data-easing="Power4.easeOut" data-endspeed={300} data-endeasing="Power1.easeIn" data-captionhidden="off" style={{zIndex: 6, color: '#fff', fontSize: 24}}>Knowers of truth have realized this."
+                </div>
+                {/* LAYER NR. 2 */}
+                <div className="tp-caption lfb" data-x={-105} data-hoffset={0} data-y={345} data-speed={2500} data-start={3400} data-easing="Power4.easeOut" data-endspeed={400} data-endeasing="Power1.easeIn" style={{zIndex: 11}}><img src="./files/images/background.PNG" alt="image-missing" width={1342} />
+                </div>
+                {/* LAYER NR. 3 */}
+                <div className="tp-caption grey_heavy_72 sfr tp-resizeme rs-parallaxlevel-0 hidden-xs" data-x="center" data-y={240} data-speed={2000} data-start={5500} data-easing="Power3.easeInOut" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style={{zIndex: 5, color: '#fff', fontFamily: '"Montserrat",sans-serif'}}>
+                  <a href="https://themeforest.net/item/astrology-bootstrap-html-template/18153621?s_rank=4" className="btn btn-danger btn-md text-center button_hover" style={{zIndex: 5, fontSize: 18, color: '#111', padding: '5px 15px', borderColor: '#fff', borderWidth: 3, backgroundColor: '#fff'}}>Purchase Now</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/*=============== Revolution slider Start ===============*/}
+      <section className="home_bg">
+        <div className="container">
+          <div className="row home_alignment">
+            <div className="col-md-12 text-center">
+              <div className="bg-white button_margin pic_margin">
+                <h1 className="text-primary font35 home_padding">Free
+                  Daily Horoscopes</h1>
+                <div className="home_head center-block" />
+                <p className="elements_desc">What kind of day will it be for you today? Use your free horoscope to plan your day, every day -
+                  instantly!</p>
+                <div className="row home_align">
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-aries">
+                      <img src="./files/images/aries-sign.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-aries signs_clr font16">Aries</span><br />
+                        <span className="signtext_clr font12">Mar 21 - Apr 19</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-taurus">
+                      <img src="./files/images/taurus.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-taurus signs_clr font16">Taurus</span><br />
+                        <span className="signtext_clr font12">Apr 20 - May 20</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-gemini">
+                      <img src="./files/images/gemini.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-gemini signs_clr font16">Gemini</span><br />
+                        <span className="signtext_clr font12">May 21 - Jun 20</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="clearfix visible-sm-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-cancer">
+                      <img src="./files/images/cancer.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-cancer signs_clr font16">Cancer</span><br />
+                        <span className="signtext_clr font12">Jun 21 - Jul 22</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-leo">
+                      <img src="./files/images/leo.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-leo signs_clr font16">Leo</span><br />
+                        <span className="signtext_clr font12">Jul 23 - Aug 22</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-virgo">
+                      <img src="./files/images/virgo.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-virgo signs_clr font16">Virgo</span><br />
+                        <span className="signtext_clr font12">Aug 23 - Sep 22</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-libra">
+                      <img src="./files/images/libra.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-libra signs_clr font16">Libra</span><br />
+                        <span className="signtext_clr font12">Sep 23 - Oct 22</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-scorpio">
+                      <img src="./files/images/scorpio.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-scorpio signs_clr font16">Scorpio</span><br />
+                        <span className="signtext_clr font12">Oct 23 - Nov 21</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-sagittarius">
+                      <img src="./files/images/sagittarius.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-sagittarius signs_clr font16">Sagittarius</span><br />
+                        <span className="signtext_clr font12">Nov 22 - Dec 21</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="clearfix visible-sm-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-capricorn">
+                      <img src="./files/images/capricorn.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-capricorn signs_clr font16">Capricorn</span><br />
+                        <span className="signtext_clr font12">Dec 22 - Jan 19</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-aquarius">
+                      <img src="./files/images/aquarius.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-aquarius signs_clr font16">Aquarius</span><br />
+                        <span className="signtext_clr font12">Jan 20 - Feb 18</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown pic_margin" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-pisces">
+                      <img src="./files/images/pisces.png" alt="image-missing" className="rotate" />
+                    </div>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-pisces signs_clr font16">Pisces</span><br />
+                        <span className="signtext_clr font12">Feb 19 - Mar 20</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-info">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 home_margin">
+              <h2 className="text-white font35">We Reveal Your
+                Life Partner</h2>
+              <div className="row">
+                <div className="col-md-4 col-sm-3 elements_desc">
+                  <label className="text-white font18" htmlFor="name">I am a:</label>
+                  <input type="text" id="name" className="bg-white form-control" placeholder="Woman looking for a man" />
+                </div>
+                <div className="col-md-2 col-sm-2 elements_desc">
+                  <label className="text-white font18" htmlFor="zip">Near ZIP:</label>
+                  <input type="text" id="zip" className="bg-white form-control" />
+                </div>
+                <div className="col-md-2 home_dob col-sm-3 elements_desc">
+                  <label className="text-white font18">My Birthday:</label>
+                  <select className="home_select form-control bg-white">
+                    <option value>Choose</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                  </select>
+                </div>
+                <div className="col-md-2 col-sm-2 home_dob elements_desc home_date">
+      
+                  <select className="home_select1 form-control bg-white">
+                    <option value>Choose</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                  </select>
+                </div>
+                <div className="col-md-2 col-sm-2 home_dob elements_desc home_date">
+
+                  <select className="home_select2 form-control bg-white">
+                    <option value>Choose</option>
+                    <option>1990</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                  </select>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-3 col-sm-4 col-xs-12">
+                  <div className="btn_adjust">
+                    <a href="index.html" className="btn btn-info btn-md btn_align">Show My Matches
+                      <i className="fa fa-search btn_icon" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 m-t-40">
+              <h1 className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">Top Stories</h1>
+              <hr className="hr_margin" />
+              <div className="row common_margin">
+                <div className="col-xs-12 font16">
+                  <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <i className="fa fa-circle text-libra font14" aria-hidden="true" /> &nbsp;
+                    <span className="text-libra">Libra</span>:
+                    <span className="text-info">Signs a Libra hates you</span>
+                  </p>
+                  <hr className="hr_margin" />
+                  <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <i className="fa fa-circle text-taurus font14" aria-hidden="true" /> &nbsp;
+                    <span className="text-taurus">Taurus</span>:
+                    <span className="text-info">Ease Taurus's Financial Stress</span>
+                  </p>
+                  <hr className="hr_margin" />
+                  <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <i className="fa fa-circle text-gemini font14" aria-hidden="true" /> &nbsp;
+                    <span className="text-gemini">Gemini</span>:
+                    <span className="text-info">Summer Love for Gemini</span>
+                  </p>
+                  <hr className="hr_margin" />
+                  <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <i className="fa fa-circle text-aries font14" aria-hidden="true" /> &nbsp;
+                    <span className="text-aries">Aries</span>:
+                    <span className="text-info">Aries Should Explore</span>
+                  </p>
+                  <hr className="hr_margin" />
+                  <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <i className="fa fa-circle text-cancer font14" aria-hidden="true" /> &nbsp;
+                    <span className="text-cancer">Cancer</span>:
+                    <span className="text-info">The Smartest Investments</span>
+                  </p>
+                  <hr className="hr_margin" />
+                  <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <i className="fa fa-circle text-virgo font14" aria-hidden="true" /> &nbsp;
+                    <span className="text-virgo">Virgo</span>:
+                    <span className="text-info">Virgo's Own Mistakes</span>
+                  </p>
+                  <hr className="hr_margin" />
+                  <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.7s">
+                    <i className="fa fa-circle text-sagittarius font14" aria-hidden="true" /> &nbsp;
+                    <span className="text-sagittarius">Sagittarius</span>:
+                    <span className="text-info">Always Aiming High</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 m-t-40">
+              <h1 className="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">Card of the Day</h1>
+              <hr />
+              <div className="row common_margin">
+                <div className="col-md-4 col-sm-3 col-xs-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <img src="./files/images/card.jpg" className="img-responsive p-t-5" alt="card missing" />
+                </div>
+                <div className="col-md-8 col-sm-9 col-xs-8 games_content_align">
+                  <h4 className="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">THE CHARIOT</h4>
+                  <p className="text-info wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s"> As a priest,
+                    the Pope or the best Hierophant, represents all those
+                    traditional values and morals of development. He is the wisely teacher / counselor
+                    guiding the ones who won’t give up or the ones who are not the...
+                  </p>
+                  <a href="signs_single_post.html" className="text-primary home_view">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 m-t-40">
+              <div>
+                <h1 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">Popular Quizes</h1>
+              </div>
+              <div className="arrows_align">
+                <a href="#"><i className="fa fa-long-arrow-left previous-arrow text-info" aria-hidden="true" /></a>
+                &nbsp;&nbsp;<a href="#"><i className="fa fa-long-arrow-right next-arrow text-info" aria-hidden="true" /></a>
+              </div>
+              <hr className="hr_margin" />
+              <div className="row common_margin">
+                <div className="col-xs-12 first-set">
+                  <div className="swiper-container love-swiper">
+                    <div className="swiper-wrapper">
+                      <div className="swiper-slide">
+                        <p className="font16 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+                          <a href="#" className="text-info color-info">What Sign Should You Date?</a><br />
+                          <small className="text-cancer font13">10 Questions</small>
+                        </p>
+                        <hr className="hr_margin" />
+                        <p className="font16 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+                          <a href="#" className="text-info color-info">What intuitive power do You Have?</a><br />
+                          <small className="text-cancer font13">12 Questions</small>
+                        </p>
+                        <hr className="hr_margin" />
+                        <p className="font16 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
+                          <a href="#" className="text-info color-info">What element are you?</a><br />
+                          <small className="text-cancer font13">8 Questions</small>
+                        </p>
+                        <hr className="hr_margin" />
+                        <p className="font16 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                          <a href="#" className="text-info color-info">What's your real top priority in life?</a><br />
+                          <small className="text-cancer font13">11 Questions</small>
+                        </p>
+                        <hr className="hr_margin" />
+                        <p className="font16 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                          <a href="#" className="text-info color-info">What's In Your Immediate Future?</a><br />
+                          <small className="text-cancer font13">15 Questions</small>
+                        </p>
+                      </div>
+                      <div className="swiper-slide">
+                        <p className="font16">
+                          <a href="#" className="text-info color-info">What Sign Should You Date?</a><br />
+                          <small className="text-cancer font13">12 Questions</small>
+                        </p>
+                        <hr className="hr_margin" />
+                        <p className="font16">
+                          <a href="#" className="text-info color-info">What intuitive power do You Have?</a><br />
+                          <small className="text-cancer font13">8 Questions</small>
+                        </p>
+                        <hr className="hr_margin" />
+                        <p className="font16">
+                          <a href="#" className="text-info color-info">What element are you?</a><br />
+                          <small className="text-cancer font13">10 Questions</small>
+                        </p>
+                        <hr className="hr_margin" />
+                        <p className="font16">
+                          <a href="#" className="text-info color-info">What's your real top priority in life?</a><br />
+                          <small className="text-cancer font13">15 Questions</small>
+                        </p>
+                        <hr className="hr_margin" />
+                        <p className="font16">
+                          <a href="#" className="text-info color-info">What's In Your Immediate Future?</a><br />
+                          <small className="text-cancer font13">11 Questions</small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  )
 }
 
-const Image = () => <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQTEhUTExMVFhUXFh8XFxcXFxoaHRsdHRoYGBgYGR4YHSggGBolHRcYITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGzIlICY1LS01LS0tLy8tLS8vLS0tLy03MC0tLS0vLy0tLS0vLS0tLS0tLS0tLS0tLS0tLS0tL//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABQMEBgIHAf/EAEUQAAEDAgMEBwQFCgYCAwAAAAEAAhEDIQQSMQVBUWEGEyJxgZGhMrHB8AdCUtHhFBUjM2JygpKywhYkNHOi8SVTQ2PD/8QAGwEAAQUBAQAAAAAAAAAAAAAABQACAwQGAQf/xABDEQABAwIDBAgDBQUHBAMAAAABAgMRACEEMUESUWFxBRMigZGhsfAywdEGFDPh8RUjQlJyFjRiorLC0jWCkuMkVJP/2gAMAwEAAhEDEQA/AOmm+k8lsaFWjjKXVwGuaLN3t5jj86KpgNiUatFt/wBJEki5E8Ry0UGG2BUZWaSeyO1IMabuMn3b1nXnWwkqUY2b+/lVHC4fENEdgKSuAfeka5jyNS7J2RUpVS5zoDTA355HoPnmnoG9fYX2Fk8XjHMQqVZbtPz5nyrQ4bCt4dGwjnf375ya+oQhUqnoVWhs+kx5qNZ2o3ac4GgJVpCmZxDjKtpB+h5jX3EUxbaFxtCYuOFJ9rbBxdY9YQMv1W52wB5wZ4pLjti1KTA90XMEcOE963mFLnkMzW3DcmY2bTylrhmkXn4Rot3hHU41CVtI2U63JvqLk5aZTrQTEdHtyoqJKjr8/eWmlePMYSYC0GD6IYioJgNH7VvTX0Wv2X0ap0arqntXlki7ePeeCt0dv4d2Kfg21QcRTYKj6cGQ0xBmI+s0xM9oImjDIT8Vz3gfI85/M0mcCkCXK892l0ar0Rmc2RxF+7TTxSgiLFeqbQ6SYaiKBrVQ0Yh4p0gQ45nO0HZBgXEkwBNysf002OKNQPYOw/0OhHu8+SidYQUbaOfMcO6/LdF2YrBBsFSdMxWaQhCpUOoQhCVKhCEJUqEIQlSoQoMZiRTYXumBuGt1I59p3RPxTthUBUWNu+31pV2hVsPii4AljmgxlJgzOnskx48VOHDiElJKTB+vpb6G2YpV0hcMrAlwBu0wfIH4hdrhBGdKhCELlKrh2dWYc2R4I9PLRafYz6hog1CSSTrqBMAacpvxS0dLHf8ApH8xT3DVjUa15EFwBjvCC9MOLDIB1I+vrFaPotpgOksrJtkQRqL6Tuy1qUL6hCy9HaEIQlXKEIQlSrpjoII1CZE1n8QDwslaqVzjJPV1QG/VBOg3bloegHE7S23FlKbG2/8ASqmKJSAUp2jWvwjC1gDtQq1bZ7cz6rGUxVc0NNTKMzmgzkc6Jy6jlMhYXae2cVRcGuq3Imxm0xv7lS/xRif/AGO4bvmVtGXGoCUKnIZHlQZeOQhZCgQeVegUNkshgqU6ZFN+ak0jP1ZAs5rnic0kmbRMJb0/A/J2yROe3kSfcFkx0qxN5qH09LKpj9sVqzQ2o8uA0n8FwvNBJAOkAd0Con8ehxKs5PD35yaoIQhDaE0IQk2Jrua8tBPYf1x19i0julzrclMyyXSQD7/WPGlTlCVUsaWgQMxfmq3LrNnsgQCdI5KSrtB2Vzm05DGhzszspEtzREHQFPOEdmI75A12dTqbDfXYpihKsVian6XQBtIEQbic0HTUx4Qpqu0C2Q5gz5mgAEkdqYMhs/VO5L7q5AIg943JP+6+fpXK7xmHc9zYIDWyZImToBE8CfNfcLRc2lkOoBaDxH1TytCjpYxznNaGATJdJIgAgSJbJmbaKLauYvaG5ieqeQGuy3BbDje8TopQhw7LSoAz0tG1mbbzmcriu13TwOVlMAHMCwu7ROg7USYGu5cNwJaykGsbmaQXaRNsxPE21F9FIdoGC5rczWsDnEmDBbm7Ii5i94XZxxknL2A4MJm8kgSBGkkb0/rMSDJvebnMxYHtTkqyc40zFKu8JhQ19QhoEusQBplbOnMFWlQ2ZiS4Ea5SQSTeczoHcBF1fVTEBYcIXmIHhYeIvSNCEIUNcrXP2LhaX6w+biPRsSruBrU3M/RewDlGto3XupKvQug0S57p9TzXOz9lNpZhTL3DU5o3b7aIf0xgT1HxgqBkC8nfpuO/hnWowe2lyzaUp1Iz4Xt6VOhCFjaL0LBbV2xtNu1adGlRJwhcwE9XLSwgdY91T6rm9q0jQWM322JcbKfZoDnAO0V3CCD8KVbXZG1kCbTzHlc5iaa4k7MzEXtQuXVACASAToCRfu4qzXoEOcALD3LF9J+iDMZi8PiDXew0Y7AEh2V2cZTPYdJub7uCanDbLhQ6SkDavsk3E8tRGkaxXNokSkTWtJWRPSKsHEhwLZMDKLCbDitvgcKahO4DfzUW0NhNee3TDpsHDXxIujXQ2FWhsvKSSFWHdN43T6VQx6HHIS0vZI4kTlqPoawG0cc6s4OdEgc43neTxVUf3fctR0p6P08MxrmucS4kAHdpf1WX+9aYM9UoJMaZf1cRwrL4hCwvtmTQF9XxfVAoye4egqIUIQhNpUKJ9BpJJFy3Ke69vUqVC6CRlSqGphGEAFvsiBBIgaRIvC5q4Gm72mg2jUiQNJg3hWEJ6XXEwQoiNxIrs1E/DtMyPaAadbgTA9SosYymAXPbM5RaSSZ7MRvkq0qu0MPnDRlDoe0mY0kZteUp7Ku2kKUQOB97hroDpXKkpUGiCBugXOhMnUrnEYZjyMwkgRqdDroeSp4rBuLnQwEkAU3yB1cCO8XvbVWcFhg0vcQMznkzaSJt4J5GwOsDhnhneP8AFIzIyBkWBzrtQv6p7gMkkEsjdDN5AMFoJi/FTPo0/wBaW6DPv3CZy8YHCVDRwzm1HPAkPcQ64sNWuHjII7lVdgX9XlNMPJohrTmHYIbB153kaqxspJADkCAPi0JMi6gBFtYgTqAFTSjRaLtESPQkuv4k+anVLBUC17zlgEC5iSeUXjkVdVJ0drOcvSeOXOuUIQhRUq9lxWGDwLxG/lwXYa2m07hv5/ekmJ6W4dgsS48AI3T9aLdwKi2ZtUYsGID2n2JtH2uM/PJE3EdXtOITKo7/AAz5xWkS8hSg2VVJVolxcWNOUbuCrrR0KYptjhcn3lLKNEVnuOg1t6fPJZPH9BEqSWj2lTKdN5g6cjbiIiiLeIznIa0vQrWMwWQgTM8l1X2Y5rS4uFuH/SDnojFyodWbZ3TbXfuqbrUWvnVWpiXEQXSOCjwWznPdbQG54femWz8JTd7Rl2uWYtx4kLqm/qakfV+HFFcP0U7KXcWrsmNSTGkm8Dkd+Rg0zrwJS2L0NLqLo1Hv58imtKoHAOG9D2BwvcarL9JulDabTTokF5sXDRvdz5rWYdgsyArsDIfy/luHzzGvPJCdpXjvpF062kKlbI24Zaee/wBbeCXbN2KatJ9QGDJyiJzQAfC9krMk8SVs2V24c0KH2rE84sfFxQbpTHuoI6j4jl/SjtHxjLjvoZhm0Yl1Tj3wiB3qsn61iQr9bZr2sa8xDjDb30kTay+bZwvV1nt3E5m9x/GR4Jvj3f5bDH9pvo2Pgk9iDLRRkqPDYkZ+91oqu1hhDoczT6zH6d1JcfgXUXBr8skTYzxHDkqyedLv1rf9v+5yRruEdU6whxWZE03FtJafUhOQNWNn4XrajWaSbngNSVJtbAGjUyTIgEHiP+5TPozTDG1K7tGiB4DM74LvbX6bD0641FjHOAf+Q9VUVjFjGBH8Fk/95BI+njVlOFScLt/x/F/2gwfrSjZuzn1iQyJAkyT8AVUT/oce3U8Pn0Xf5hpDsOxAFT+EX7s0p6selp9bbhsAkiAScjJt3U1OCU4whbYudqZIAsRGffWdQre0dnuovyuvNwRvH38kzw+wWNaHYioGToAQD4k6nkFOvFsoQlZVIVlFyeQHsGxiq6MK6tZQBcZzaOc+W/MUhQmm09kdW3rGOz0+Nu6ZFiJsucbs5rKFOoHEl5AItAsfuXU4ppQSUn4jGWuccO+krCupKgRkJPLK2/upau6NFzjDWlx4ASmGzdmNqU6ry6CwTAj7LjfyTLo3haYc14qgvLTLLWnXnZRYjGoaQsi5TwMTEjLSKlw+CW4pANgriMpjXWazT2kEgiCLEFCcbdw1Npc5tTM81DmbItMk6XsbJOrDLodQFD6e+FV3mi0spP198tKEIQpaioVjAYx9F4ewkEGbfPh4quhOQooMprqSUmRXo2yulFKu3JVOR0XImD93u5p5s5rADke14J1BB8LFeOrrrncSrIfbKttabjUfQx6+FEW+klJTChXqm1qga8FxAFhdwG/8Uo2z0vpg9XTvJAc4g6TeB3b/AEWb2lsLE0qZq1IyCJhzTqQBpuJISRNUsNlcAyrfpyA+Z7qe/j3BCQnZjfWg27thrnMdRe4ObIJiLGNJvP3qJnSnECDnkgQCQD7we9RVOjtcUBXhvV5Q6xvB3x3GUpUSVONJCdON+OvGqruIf2ys9kndYZR8qZYzb9erZ1RxHCbeQsfJLCU5wXRnEVabarGtyOkglwGhIkz3JOuuqcVG3PyqBzrDBXN99NejOFz1gTozteOjfW/gmePq4R7w99U5hAETaDbL2eN0kwO0n0muawN7WpIM8ovu1VAf3IcnBuO4lTpWUgbITskAxIJmxi+WtqtDFIaYDaUhRJJO0DE5DUad26tR0nY2pTZXYZDdTyn4ER4r5jh/l8N+83+kpPh9pubSdShpa6dQZExpfiJ711V2o9zGMIbFMgt13CBN1VawbqAhGiFEgyPhIMd9WF4tpRWvVSRIg/EDfuiKt9LR+lH7n9z0lVraOPdWcHODQQ2LTxJ3k8VBQq5XNdAOUzB0txV3CNqZw6UKFwN/zqlinEuvqUnIn3atbWp0aVBlCq/KCJMTcggu0BtJX3Zv5O5j6NN5IcCSDO8AEiQOSy+0Mc6s7M6JiIExx3nmo8HiTTeHtiRx0uIv5od+y3CwQVnbMqiRs7XhO7X6C9+0kJeBCBsi0wdrZ8edo+tPuidMtq1Wu1Ag94JBSfFYGqKjmlji4uO43vqOMqeltt7aj6jWNl4ANjFt4vqp2dJKwEGCeJB9QDCnCcUh9byUpO0E2JiCBpwmba2ioSrCrZSypR7JVcCbE274jQ6jnf25Va38mDyC9pBceQy5j4n3Kt0sw7zUD4JbAAIvBkyOSSYnEOqOLnmSfmBwCYYTb1ZjQ2Q4DTMLjlIPvTUYN5gNqbglIUCMh2jNt0ZCnrxbTxWlchKoIIueza41mKY4Cm5mDq9ZIDpyg8wALbpK4x1MvwVItvliYvxafIwlW0NqVK0ZyIGjRYd/Mr7s7atSjIZBB3OEj00S+6P/AIttva2om0RsxO/jlNL721+FfY2dmYvMzMbuFNNh0HjDViQQHNMTvAY6T3XVLox+u72OA/lXdbpHVc1zS1kOBGhtIIMX5pfgcWaT87QCYIvO+24row76239sAFeQB4Rn78IppfZStnYJIRnbjOVG0f1tT/cd7yq67r1C5znHVziTHMyuESQCEgHcKHrIKiRvPrQhCE6m0IQhKlQhCEqVekYQDEbOM3zU4/iZYHzYCvOaFIvc1o1cQ0d5MD3rcfR1jZp1KO9rg8TwdYx3Ef8AJKdj7Ny7S6qOzTe53c0NJYfVvmrLg2wg77e/OrzyetS2rfY+/E16BUwTTSNL6pZkHIZcq8c6szljtTEc9I81603aAfXdQ/8AqDwe8ke4tPisTicB/wCV6uLGoH+ECo74hSYkbURvipsakL2Y37Na3a7xhsERN2sDG83EZZ9SfBeWrbfSLibUqYPtEvPkGt97vJRdGOizXMFfEDskZmsJgZdczvu4a8Ex1JW5sJ0qPEJU89sJ0Hv5Vjl8C9FdT2dVPVs6kOJgQHNnkC0tk9xWc6WdHvych9O9Jxi9y06xO+bweS4GijtSCLZc/etV3MMpKSsEEcKzyE66M9H3YpxJJbSaYc4ak65WzvjfukLYv2ds+h2HikD+06Xd5zGQmNsKUmchxrrWFUsbUgDjXmiF6Vhui+Ec4VWta5pBgNcS0zEOFzBEEWMXWYxGBw7doCm8Nbh4BPac0XpSDMyO1G9JTCkxJFzFdXhVoAki5j8+VfOhux6eJNXrQ4hgaRlMa5p/pCV7dwjaWIqU2Tla6BNzoD8V6NsClhW5hhiwmBnyuJ45ZzExqVSx+GwJqPNQUusJOYuqEGQOE2UxYlAynfVhWFBaSARM5786rfR3ai6+tWPJsrE7REVag4PP9RW5+jf9Q/8A3P7QpMXhMBQc7rn0g57szmucC7tGZjVo5iAkUbbSbxzqRGFcxLSEtiT4+ledLgvHEDkSB6arbdIuiNN9E1MI4tdGYAOLmPbr2TcgxcXg6b5WM2f0ZfUeG5yXOOjTbvM7vBU3oZISvM5ReaJdH/Z5t9BcefCQJkJBJHeYA8CO8VX/AC1g1M/u3+KiO0Gft+n3r0/ZvQ7B4dnbpte46l/a/labDwEqY9F8FUkspUhbVjYIO4wbeilLRnYBG1nskgGPP6catIwXQyM0OLH8xVE/+Oz73V5P+cRwf6Lpu0G8HDvAW8w3RrLXax7KRbnE21E928LSP6N4SQ44ejbXsAN5kjjbfxUGGUXwrZEbJg3yIz00qw9guhWyB1JvqFqPqqvJPy5nHzAHuJUrKoInM2OE38lt+luwsO5jOpoMBzHN1TADpacouFjMR0eA9lz2Hg75BTHMQ0hextTxzHlXE/Z/o7Eo221LbO4woeEBXmK+ZkKv+Yqn/tHmfuX1c+8NfzVD/ZFH/wBof/n/AOyrCEIU1YyhC5cYX1plO2FbO3Fsp0nOPClNPOhWKyYunwfLT4iR/wAg1ehUtnAYipX3vY1nOQTJ8sv8q8lw9Ysc141a4OHeDI9y9dxW0WsoOrz2Q3MOf2R4yPNW8KRsmdL+VE8CoFJB0M+R/OsNhdof+Uzz2TUNPwy9W3ws0rY1NmB+JFfd1bmdzpifIuC8nzHWb6zu4yvYMNjAaLKrrZqYedPs5j6SlhlBUg867gldYFSNZ7z8/elYHpTWFbH5D7LXNp+H1vVzh4Lc7bwArUTTfULGkySIEgSQ0zu08l5VjdqsGZzY6xzgS6TY3c5wBbvnSdx1BhekbNxdLaGFgH2hFQDVjtTrzuJ1CTKgoqGpo050M7hkFx/JZgxoO+OMZZcZpQehmH34hw7yxMOl1ZhwVRudr3NDDMi5ztE236+az9T6P62Y/pqZboS4uBy31EG8GPa8kh6YdGfyNlJ7aubPIcTAOYXloucsczEa3CaZSlXYgc6ts9C4Fw9U0/dYIsg7jvUI5GDXoOxT1OzmvYAXNpueP3jmM/O5ebPcXEucSSTJJ1J3kra/Rxt1lWiMO8gVWSAD9dkkiJ1iTI4Qd6jxXQjM8mjVZkn2YJLf2TBvHOEnElxCSjwoH0p0a8yvqonZtuncRO/nbKj6OMU7PVpXyZc3cZj1B/4pZ06d/nH8mtH/ABn4rb9HthMwrSAS5zozONpjQAbhc+awnTM/5p3HIzNPHIPhCTiSlkJNUn0KbwyUq3/I01+j3TFHg1v/AOizfS7ENbiq9/rfPcn30d1RnxA1AYHOA5F1velG2djB2Nrvff8ASktaLzpr9ygecS2wlSt5+fvlRronopvEBKcVIAG1GRVJtxAIUDoY1EzWi+jCuXUKsiB1trR9QaeSTYvZnW4mrULczi913aCD2QNwgAc7LY9EMIWUrwO3MDd2Yj1STae0g1zg0AAEyToIlUMa865hGi1rOto9T89xtRI4pjBvuFsBKSAABlytHu5vWh6L0iyjlc6YdblMWHjPmoNgNpirUawCWW05wb+Ci6DY4VaVQh2aKkE7vZabfgsTszpWaW0HuqECi6o5joGgLpa/jYgE8pRXC9GPOoZKvibBJBkZiAIjPKBbKhDuPKjKcnD7NrfrXpG0qDHGXVA06AEj0khRYKhTpvDhXB1BbLL+V+aV9L+iFPHZarKgZUDYDozNe3UTHfYjjvtGYwf0YPzDr61NrJ0phznHkM0AHndXW+jcCVdeqAvP4bzzn3uqFb+JnZA7P9UeUVp9tbUaMbh2Cp7eWwvPaI3C34KfpvtQUW0gXhuYnWLwBx/eXmWDwDsPtOnS7LizFMaCLyOsbBtocpuNxkblpfpbaZomLF9T+igPgfJTL6Mw6lFuTDlyYG76ATM68qb/APJ2TltaXOXMxxyqbD7bzaOY7ud9xVtu0WOs9o/qC8p+bK7Q2nVZo8kcHaetvJC8R9jmFfgrE8QU+Yn/AE0wY/HNXWkkdyvS/nXpWehwZ/KfuX1YD/EVX7NP5/iXxUP7H4v+f/OP+NS/2ic9hX1q8uXPhdKvWYZRPAMNvPhLhgZ7p4d/pMXis6tRAtUzmyENEL5SEC6+U3zK4plzYWEqlCD3STAMceFuddkSJzNc4h+5XK+3axw/VuqTTaAMsDRoBboJMW8gq1QA6pZjMRJyt9kWJ7puVP8AfGBhkNBHaBk7jvyMmRFuW6i/QnRD3SOIKQopQB2iM4OQGhJvnYCSdxPzk4tBEtG/cdd+7RWz0ixPU9R1ruqiMsA2O6Y05TbwSpCHFRJJ316thsAxh2UMoSITEWGY/i/qOZOddFymwOPqUXZ6Tyw8Q6PA8RyNlXQm1bKQRBrQf40x0R15HcymD55EmxuMqVXF9V5eT9Ykk9wnQcgoELpUTmajQw02ZQgA8AB6CvrXb94uDwO4jmndHpdjA2BWmBZz2se4cw54LvMpGhIEjKuuMocELSDzAPrVvBdIMe2t1rsRUc6Mpc52YZSQSGsJhpMDQDRMNobUfWc55Jc8gBxgA+zAEN0MEC25JFYwWI6t4dcgHT7ud1Y+8kg7adqxAExB0PduyrPv/ZrDqUhbZIKVBRB7QUBcpIsL5bUEib7Wmp6KU61DM5jofUADhAIgTEyDe581pXuDJqVDmqO1MC54NG4KvhKlNlIVGkOziQRv5cgFnNv7ayc6h0G5o5/cs2yzielHuqTOzJtlMZ8gNTyEFRig/THSiWlKV/EczF+/XSw4SaaY7pU+gDDyCbhgjzMj1WI2jtSpWJLzYmco95581WfULnZnkkkyY18Oae7J2OP1lQc2tO4bi7ieS3SWsJ0MwFr7ShYa33IBsOJPGTes9hsFiMe5+8kJz58zpy3VxsLF41rDTw7yymXZzIaBNhmlwk+yNOCKmxKhJzZSXS5zwdTMxcAyTyhP0IC59o8SVEoSlM8JPja/cOVahHQzASlMmxBsYy0tmOBJqhs04zDtDaNbI3XISHAHWIcC0GeClxO2sW4ZX4moBpDcrPVoBVljwRIIIOhBkeiHsDhBHgov25iFK7YHckT5z8uM1HiuilKR+4XCuIBB74kE9/KkeGoim9r2Oe17TIMtseN2qfamKq4gNFWq9+ScshlpifZAnQLrEUS0x5Hn8Ao1dTj3lQsLnjA+lY9zE4tpwpWohQtcC3l+ueUUtqbP4ZfOPgqtXCEagjwTxfIVtrpV1J7QB8j5W8qlb6UcH4gCvI+X0rP9SeKE+6pv2W/ytXxWv2uj+U+VWf2q1/KfGpELl7wBJIA4my6QGgdCEL4lFKarY+tlbA13d15+eRSlW9oSXwATlEeRMfPNVSEhXsHQOA+54BtJF1dpXMgeghPdQiOS+ApLsjY76Vd9Rz8wIItOZ0nV/DinpAIJJ/OiLq1pWhKUSCbmQNkb+PvvcvdAJgmAXQOXBKthbYNcvBYG5YNjOs277L0Ov0KNLDOxNXEUwMuZgZ28zjo0EwLngCsiGgaCO4LsbIhQucqgQ594cStlzspkKEZnS5jLhP0+oQhR1doQhCVKhCF9SpGmmB2uadJw1y+zwBsPLf4FJnvLiSTJJufgpWG/zxlGGpEnmdEe6HU2htyBCpueET3CQcqwnT/RSfvwxB+FQmNAoZnwg85NS4KicwgAnW+nitNQxlu2ZMaxql1GkGiPM+9SoV0k6jFrysMjr+Q4eN4jOK6Yebclgwkb9eJ9Ru13U4Y4ESNEPaCCCJBEEJOHHiLaKetthlMs6w5A9waL7zoOeiBuYNYPYv6/nR7BfaBl4hDo2TYbwZz/AKb794M5xa/NrKGFDMIWhwa7LTcHQ11yCXXzNJM6zddYLP1bOty9ZlGfLOXNvidy7p1Q7QrpV1qJPaF++fEyb5891G2ShSQpCpToREd0WtkKixpaGEuIaOJsB86JU0ymuLwrarCx4lp13b5HqEsdSyHKNBAHHxRHAFBbUkntC/CNeZmLcDWW+0zEKbeAzlJ9R4Xv9KEIQrVZahCEJUqT7drQ5giYDqrQdHVGmmykDyz1ge9oU+CxWVjy93YpnKajjdzmyKrjuAzdkDkd0KHpFh3FgqU25nUyHZd7mhzXEDnNNp55YWA21tl1YNptMUmTA+0SSS8+dgrDTXWC3v2Mvyq0wwXRAP5e8hwPCn21+nBktw7RH23jXubu8fJZrEbdxL/ar1f4XZR5NgJehX0soTkKKIwzSRAT439aa1OkGI6wvFV7ZPsh1h4aEc062Z0rzf6lotHapiCbxcaTvkcNCsgpMNh3VHhjGlznGAB82HNNWy2RBFXGn3G3ziEGFmZOpkEX0MaAyAQLV67QbTqMDmZXNIs4RPnoo2bO1k2BMX1gzw5+ql2BsjqKDaQu4XceLjc+G4cgFccwjUDw+bISVJ2ikH61GekulcAhXbUpKslKlWyZ0KpAOYj4dRlS3EYC0tzSLwTM8+QUdLAOIkloMaEn4hNP+vAr6u09H2ux6WAgwpc/EofwxYQIEzqRlFiTNI6lAtIEE8F27CvAksIHcfeUrr41ztpikD2YZm/ga6oB5uC1ZanKQUxxvRN37YLbQ3+5BJSCq5G+ybEiwm85xFqQhCbYmm1rXHKLzz10jmvuz9kmpSlvtl9u6Yg+plRLcSgSqw9+mtanBdKs4tCnWwdgK2ZOpgE9wmJ57rqELZYjo3Rpta0lxefadoPARYd86LI1ssyJDZNuV8vLRdwijiklbIJFtN5IHcYtPfFRt9NYNbymdqCATewIFzHIXggGK4TTA0oBJ1On7pv77JbSp5tNe+fgnFAQB3D4q2tLrEtqEbXLKeBOtAPtVjWnsCksrB7YBzBgpWciARJTa14qVCEKtXntCQD9PjJ/+PDWHA1jr35R5FddLNrnD0paRncYEg+YIsCNfBZDo10jOHJD8zmGTFpLj9Yk3VhtpRSVCrTWHWpsrT3e/SvTW1CNCB3iVZZjiAARPObf9LzDG9NK7pDA1mugk8td6gw3S7EtdJdmH2SPkgSmLwG2O0BVzDDG4ftNLjhmM5yIIz+e+vZGuBsDfuSqu6XE8x7l5jtLb1aq5tdmZgZAIBsHEHTj+IT7odt91Uup1SOy2QTqbxCib6PUwCuZt751c6VxT2KYRtJAgkkDjAET31rUIQlWdoQhCVKk3S3GmlhajgYc4dWP4rGOcSfBeUr0T6Rv9Oz/AHx/S9eeojhB2J40XwAHVk8aF3h6eZ7WjVzg3zIC4W3+jbZDHl+IeA7q3BrAdA72i7vEiPFSPvBlBWf1Jyomw0XVhItx3AUw/wAAUJ/WVo4S335U62bsuhhuzSYGl31jdx5Em/hoo/8AE/8AnfyXqnaTn3ezm0j2YtM67k3xri0SxoJ4xMdyDuPPiErGeV7URSyyoFSFWGci/dE/KN9UuktPEGjlwzg2pa5gW3gE2BVnCB/5O0VSOsDBLhoXbyFyzEvFMFwm8XHfHuR15cBNuQUSUqgJIFjM6n3xtUHSLyEsOLk3Ts7MWEwnPLs/EIvYCviEL7T18FYrHITtKCcpIHiY4VlOjtAVcbi6xmab8jeEdppPkwea1ZCzHQJriMS9zS0vqzBEHed/etRUPzyUjx7cboHlRXG4ZCWEr1EDnE/K+vwgcaX7UqdkDmD5LWdG8PGX9mnPjEe8rJbRGZzB3e9wW62I27z3D3/cgvS64Ztx+Q+tbDo1HVdEsjeFHxUY8jS/pNicraruDco7zb3lefx7lrultX9G79qp95+AWTYLhbL7OM9VgJ3nySAPWfGse3++xxVuBPiY9KabNZqf4fd+Cvj8fnzVfADsRxcT5gD+1WEOxy9rEK4W8LVTx7hW+vnHhb60KrtF5DDAtoY9ocCPGFYqzBjWDHfuSVmNHVFji4uzb+ER8hdwuDXiBKNCB468hUOHUlLqSvIETy+u7jWW2/nxD3hsxSl5FzLjBIA8/NI8U+kBlptJkAkuN2m8tbA057/BembJwrbyO0Wme4lvrosb/h8da4kjLmMNjdNt6tKhhamiZAiDvmjza1LWW9mDAMbp+lgeM1mCF01hOi1eK2cx7gzKWhrZBAGXWInXNvX12zqbAC1jz2gIF9+pndxTOvFT9QaywquAiTF7Ta/LRO9hbOqAioeyCCOZBBBtwuu8bsEkg0yBcWO7ifctwMNGHY0xLcusfZMj54LpX1hCEm5tUSpbdQhQ+KR5VNsqqXUyT9rKO4NaPvV1UtnaWs3cN44yrqo4hrqnCiZj5gH50Fx7fV4hSRw8wPfnQhCFDVOlnSzY1SthntawlwIe0cwb+hK83HR7FTH5PV/lt56L23G4jIFVbzTmMWtKDb1rRYDC9i5zNsvedeb7H6CVqhBrHq27wCC4+Vm99+5ei4HB06NMUmANaNw95O881KX8LBRqJ1bj/wAdhuFGG+rYPY7R3nLkBY957qkNEC5I7/gusFiqbqg6xrnUwbhpgkcp/DvCrubNihjANAmJQQdomTXVugp2UiAeJJ86f9ItrUatOnRoU8lNpzGQBJiNATO+SUhfSMTBgXUuFZmqMZrmcBHLf6JztHDZXECzSLRwO5J3FjrkpVrfuBAt5+dCekWiWNlOU+ennWeZTJ0v3JjTwQGGe9wglwE7wACTHeqLSWEE6gRHHfunj6Bd1sQXRYQ3UbuAmYnuRheCWcQhTXwSlWe7TPW3CJFZdt9CW1dYJVBF8hNp7r1a2Nszrg4h2XLAuJved9gvmO2NVp3IBA3tPDkbp9sPDmjQLn2JlxncN3jv8VXxuO6wAREGTeVnMVj33ekHOrILYIE20ABgi+fMc6OpwrSMA2hyQqCoDK5M3HfrxrJ1cDUNSmcpgFsmCdHSthsio1odmIEkahLl8e4AEmwA1UWKbGJTsqty/OiLfTLqGEMBIhIAGcmO+PCKV9I8O97GhjS45pMdxSNmzK2Y/o3a/ZK02w8WatZtN2hBvobCQeATutspwPZII8ii7fTxwKRhVBNpMmdSdZj0qk1hHmFF1ImbeHCsrhsK8AAtO5fKgy6mDNwddbHlaFq6OzHyMwETe+7fosV0jw9RtWqwEB8ktJmIPseGnkVUbxycS8QCJuq18zlmaexgyetLqbLnOxBmQRrbvB1EVaD2mA0ydI57gvtTAkycnay2dAkLP0ar5yjKHdkucZg37UDUHX04rcsdIB4iVOta2IKTUONw6A6HUdnLKIkReNJNzECayjSabogiLFm8cT3JNtLZ2V/XMJqZiRBjMATJg/ZF1vMZgG1NZB0zDWOB4hK37CfPZc0jdJIy8xAN0VGNwuJAU4dhWR3H5csj61bLrDyg4o7Cx4HxnXkdDWVp5muB3gggETzuDYjkru29quxLmnqqNKBAbRp5AeJNySVZxNGCWuvBI39sg+kKKjSDdLcXXlvLnwU/7PJI2VDZPCiYRMGotm4VwqBzoDWjVzhckWi9yFfxNXMdDA0bv/e7lcpbFcQDLMpAMS+9tT2dUywGy20+0Tmf9o/AKD7zg8MdsK21DIDw7uOu4GhqlYdt0vk7SsgMo9751qlhsG9ouCSe1PuHkpvyd32SmqEFcxi3FFagJNB3W+tWVqNzf3y04Uq/J3fZK+JshM+8K3VH92TvqOvRDhBXFHCBvNToUQWoCAaupeWlOwDaoBgiTDRJOgUNTCPGrHD+ErQ7FpXLuFh4/PqmkwqL/Sy2XNgJCo7jPuNKNYMKcaClG/yrBuEa2UReTZrST8+JW/q0mO9prXd4BUdLCsb7LGj90ALg6cRsyUGedvGPlVjqjSjo9sg0/wBLU9oiwO7ny7k2r4VrwM020hT5V0gz2Lcdd60m/DTgKeW0lOyRIqj+aaR1bm7z9y6w2y6VMy1gmZFyYPESbFfcVj2sMEEnVLMVtBz7eyOA+JV1k495Gx1igg/4jH/iDB8KHuqwbSp2ElQ/wiR3xapdqYzN2G6DU8eXclyEIoyylpAQnKhTrqnVlaqHCyz+PwrmjtVARNhmMnwK0JSU7IfN3M77yrjCgk3MVNhVhBMqjuz+lS9E/wDVM/dd7lvJWS2dQFG7fa+0QPkBMq206hYQ3K1250THPLN0J6Swq8S+FoiIAvzN8uPPhV9rHtCQZ8KepZtvYzMQ0Scr2+y8buRG8clV/OlWWXpwG/pBlPaMatv2BN4up6e2D9ZgPcY98qi1gcS2oLQQCOPsZeRqU49g2nyNZl2xxSqNZUdmJBIDQYMcTu7kyVvaeKFUNyy3K+TpcQRHqPJVEbQ644gF0Qr3uteheLWlTkpMj08hUVfEBs2JiO6/PwS+rjnnfA7vvTUhQ1sI08u5FcE/hEWeRffZQ8DlvtOd6EYpp9YPVK7svMUgq7PqlxOQmTJNuzJ1F964/NtWJ6vQgbu1rd19bLUvIExvItwA3HxjyXFJ4uDobW5HX09Suj7QYgidhOmh/wCXCvRBhEJsCf0iaStqPbAJIIY0RJtaI15KWnjnjf8AFG1yGuc4C0AeQCqtdIBG9HWg3iGULWgXAOWpFx3GvMMcHGMU6gEiFKGekmOGUU7wuIzaiCpkswuMLbEW9fxTNZ3pDD9S7ZMJOV55/ppvNXsI71iLmSM7R750IQhUKs0IQpcNSzPa3ifTf6LhIAk5V0AkwKebPpZaY4m58fwhWULgPuRwAPnP3LKLUp1RWefn+dahKUtpCRyrqFnuleysTWdSNCrkDZzDMWwZEOt7Xd95WiXLyACSYEXJUmFxK8O6HURI3iRe1OUkKEGvoX1Q4PFsqNzU3te3SWkETvFlMoFJKTsnSu1Q2vQluYat929JFqCJss5iqORxbw07tyNdGPSktnS45fl86DdJMwoODWx5/n8qiQhCK0MqbC0sz2NOjiG+ZAVz80uIaWkEETN4mWjh+0PIpcESnpUkCFDzj3r404RV/FbMc1pdIgAO0cNcnEQLvFjBUp2PJhrge1G8x+riYbMy/uhLC48SvmY8U7rG/wCXzpW3Uxp7IcT7TdQDZ37JPL6411uvh2eBVaxxOUyZAvALp8ez6qjTqFpBBuCD4jRfC48Su7bf8vn7zpSN1NfzLuzdoNk6Rnk5WDjIHmk9WplBMTHBdyeK5TStBIhOWd8+/SuKuLWpZU2i7cPiuaGKe5wBOu7KN0pi/DNOrR7vcoxhGC4BsOKKpxmBCDDUGNwPmTOdUmsLiFvISVyCpOpGo0AipRr4qDDvzNHkpmi65ZSDRA3feT8UGQUhlaTnKY7toH1r0LEOKGPZSMilyf8AIR/pNU9p/V529PxXxuzXbzCYsHp+Cp4x1WYAgbss370ZwOMdcQhhshMAyVXm9oHlrvtFYrp3CobxrriwTtEEAf0iZPMHdUtDAhpk3PorKoYarVkAgkb93qr6p45Lwc/erCjwPytHhG6q2GLZT2ExzHufGhCEKlVihXtk/rB3H+lCFXxX4C+R9Knw34yOY9aeKvR/WVO5vuKELON/Cvl/vTWhc+JHP/YqrCWdJv8ASYj/AGXf0lfUJ+E/Hb/qT6inL+E1nvo0/VVv9wf0hbF+iEK905/1F3mP9IpmG/DFcUks237bf3fiV8Qouj/7x3H5VB0l+Ee71pchCEfrP0IQhKlQhCEqVCEISpUIQhKlQh6ELhyqxg/7y3/Un/UKjp6t7x7wun7kIUY+GtPiv+oscleiq+09D3fcul8Qu/wGg/TX977hXS5QhORlQpWdCEITqbX/2Q=="
-alt=""/>
-
-ReactDom.render(<BookList />, document.getElementById('root'));
+ReactDom.render(<Astrology/>,document.getElementById('root'))
