@@ -356,19 +356,6 @@ function Astrology(){
           </div>
         </div>
       </div>
-
-    <div className="bg-modal imageDiv">
-      <div className="modal-content">
-        <div className="close">+</div>
-        <img src="https://images.prismic.io/smallexchange-com/21260cc6-c545-4571-8f59-cd96052b327e_SMFE_Site_Buttons-SMALL%403x.png?auto=compress%2Cformat" width={60} height={60} alt="not loading" />
-        <form action>
-          <input type="text" name id placeholder="Sign" />
-          <input type="text" name id placeholder="Summary" />
-          <a className="btn btn-primary" href="#" role="button" id="button">Close</a>
-        </form>
-      </div>
-    </div>
-
     </section>
 
   </div>
