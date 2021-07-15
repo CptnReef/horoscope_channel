@@ -71,6 +71,16 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 <!--=============== Footer Section End ===============-->
+
+    <script>
+      document.getElementById('button').addEventListener('click', function () {
+        document.querySelector('.bg-modal').style.display = 'flex';
+      })
+
+      document.querySelector('.close').addEventListener('click', function() {
+        document.querySelector('.bg-modal').style.display = 'none'
+      })
+    </script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./vendors/select2/js/select2.min.js"></script>
