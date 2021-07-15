@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-function Astrology(){
+function BookList() {
   return (
-    <div>
+      <Book/>
+    </section>
+    );
+}
 
       <section className="backgroundclr">
         <div className="container">
