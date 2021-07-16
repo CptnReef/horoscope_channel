@@ -220,12 +220,12 @@ function Astrology(){
                     <div className="sign_circle bg-aries">
                       <img src="images/aries-sign.png" alt="image-missing" className="rotate" />
                     </div>
-                    <button className="main btn1">
+                    <div className="main">
                       <div className="sign_card text-center signs_bg">
                         <span className="text-aries signs_clr font16">Aries</span><br />
                         <span className="signtext_clr font12">Mar 21 - Apr 19</span>
                       </div>
-                    </button>
+                    </div>
                   </div>
                   <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
                     <div className="sign_circle bg-taurus">
