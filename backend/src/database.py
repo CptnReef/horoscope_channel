@@ -24,7 +24,7 @@ async def fetch_all_todos():
 async def create_todo(todo):
     document = todo
     result = await collection.insert_one(document)
-    return document
+    return result
 
 
 async def update_todo(title, desc):
