@@ -222,7 +222,7 @@ function Astrology(){
                     </div>
                     <div className="main"> 
                       <div className="sign_card text-center signs_bg">
-                        <span className="text-aries signs_clr font16">Aries</span><br />
+                        <span className="text-aries signs_clr font16">Aries</span> <br />
                         <span className="signtext_clr font12">Mar 21 - Apr 19</span>
                       </div>
                     </div>
