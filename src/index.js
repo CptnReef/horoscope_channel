@@ -70,7 +70,7 @@ function Astrology(){
                 <div className="bg-info header_bg center-block">
                   <img src="images/man-with-tie.png" alt="Image missing" />
                 </div>
-                <div className="text-center info1 font13 hidden-xs">Career Match</div>
+                <div className="text-center info1 font13 hidden-xs">Career Match</div >
               </a>
             </div>
             <div className="col-sm-2 col-xs-2 text-center head_signs">
