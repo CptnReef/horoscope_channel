@@ -1,5 +1,9 @@
 import React from 'react'
 import ReactDom from 'react-dom'
+import App from './App'
+import reportWebVitals from './reportWebVitals'
+import './index.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Astrology(){
   return (
@@ -203,159 +207,159 @@ function Astrology(){
     {/*=============== Revolution slider Start ===============*/}
     <section className="home_bg">
       <div className="container ">
-        <div className="row home_alignment">
-          <div className="col-md-12 text-center">
-            <div className="bg-white button_margin pic_margin">
-              <h1 className="text-primary font35 home_padding">Free
-                Daily Horoscopes</h1>
-              <div className="home_head center-block" />
-              <p className="elements_desc">What kind of day will it be for you today? Use your free horoscope to plan your day, every day -
-                instantly!</p>
-              <div className="row home_align">
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
-                  <div className="sign_circle bg-aries">
-                    <img src="images/aries-sign.png" alt="image-missing" className="rotate" />
-                  </div>
-                  <a href="#" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-aries signs_clr font16">Aries</span><br />
-                      <span className="signtext_clr font12">Mar 21 - Apr 19</span>
+          <div className="row home_alignment">
+            <div className="col-md-12 text-center">
+              <div className="bg-white button_margin pic_margin">
+                <h1 className="text-primary font35 home_padding">Free
+                  Daily Horoscopes</h1>
+                <div className="home_head center-block" />
+                <p className="elements_desc">What kind of day will it be for you today? Use your free horoscope to plan your day, every day -
+                  instantly!</p>
+                <div className="row home_align">
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-aries">
+                      <img src="images/aries-sign.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
-                  <div className="sign_circle bg-taurus">
-                    <img src="images/taurus.png" alt="image-missing" className="rotate" />
+                    <button className="main btn1">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-aries signs_clr font16">Aries</span><br />
+                        <span className="signtext_clr font12">Mar 21 - Apr 19</span>
+                      </div>
+                    </button>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-taurus signs_clr font16">Taurus</span><br />
-                      <span className="signtext_clr font12">Apr 20 - May 20</span>
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-taurus">
+                      <img src="images/taurus.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="clearfix visible-xs-block" />
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
-                  <div className="sign_circle bg-gemini">
-                    <img src="images/gemini.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-taurus signs_clr font16">Taurus</span><br />
+                        <span className="signtext_clr font12">Apr 20 - May 20</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-gemini signs_clr font16">Gemini</span><br />
-                      <span className="signtext_clr font12">May 21 - Jun 20</span>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-gemini">
+                      <img src="images/gemini.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="clearfix visible-sm-block" />
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
-                  <div className="sign_circle bg-cancer">
-                    <img src="images/cancer.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-gemini signs_clr font16">Gemini</span><br />
+                        <span className="signtext_clr font12">May 21 - Jun 20</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-cancer signs_clr font16">Cancer</span><br />
-                      <span className="signtext_clr font12">Jun 21 - Jul 22</span>
+                  <div className="clearfix visible-sm-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-cancer">
+                      <img src="images/cancer.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="clearfix visible-xs-block" />
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
-                  <div className="sign_circle bg-leo">
-                    <img src="images/leo.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-cancer signs_clr font16">Cancer</span><br />
+                        <span className="signtext_clr font12">Jun 21 - Jul 22</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-leo signs_clr font16">Leo</span><br />
-                      <span className="signtext_clr font12">Jul 23 - Aug 22</span>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-leo">
+                      <img src="images/leo.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
-                  <div className="sign_circle bg-virgo">
-                    <img src="images/virgo.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-leo signs_clr font16">Leo</span><br />
+                        <span className="signtext_clr font12">Jul 23 - Aug 22</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-virgo signs_clr font16">Virgo</span><br />
-                      <span className="signtext_clr font12">Aug 23 - Sep 22</span>
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div className="sign_circle bg-virgo">
+                      <img src="images/virgo.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="clearfix visible-xs-block" />
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <div className="sign_circle bg-libra">
-                    <img src="images/libra.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-virgo signs_clr font16">Virgo</span><br />
+                        <span className="signtext_clr font12">Aug 23 - Sep 22</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-libra signs_clr font16">Libra</span><br />
-                      <span className="signtext_clr font12">Sep 23 - Oct 22</span>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-libra">
+                      <img src="images/libra.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <div className="sign_circle bg-scorpio">
-                    <img src="images/scorpio.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-libra signs_clr font16">Libra</span><br />
+                        <span className="signtext_clr font12">Sep 23 - Oct 22</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-scorpio signs_clr font16">Scorpio</span><br />
-                      <span className="signtext_clr font12">Oct 23 - Nov 21</span>
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-scorpio">
+                      <img src="images/scorpio.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="clearfix visible-xs-block" />
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <div className="sign_circle bg-sagittarius">
-                    <img src="images/sagittarius.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-scorpio signs_clr font16">Scorpio</span><br />
+                        <span className="signtext_clr font12">Oct 23 - Nov 21</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-sagittarius signs_clr font16">Sagittarius</span><br />
-                      <span className="signtext_clr font12">Nov 22 - Dec 21</span>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-sagittarius">
+                      <img src="images/sagittarius.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="clearfix visible-sm-block" />
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <div className="sign_circle bg-capricorn">
-                    <img src="images/capricorn.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-sagittarius signs_clr font16">Sagittarius</span><br />
+                        <span className="signtext_clr font12">Nov 22 - Dec 21</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-capricorn signs_clr font16">Capricorn</span><br />
-                      <span className="signtext_clr font12">Dec 22 - Jan 19</span>
+                  <div className="clearfix visible-sm-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-capricorn">
+                      <img src="images/capricorn.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="clearfix visible-xs-block" />
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <div className="sign_circle bg-aquarius">
-                    <img src="images/aquarius.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-capricorn signs_clr font16">Capricorn</span><br />
+                        <span className="signtext_clr font12">Dec 22 - Jan 19</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-aquarius signs_clr font16">Aquarius</span><br />
-                      <span className="signtext_clr font12">Jan 20 - Feb 18</span>
+                  <div className="clearfix visible-xs-block" />
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-aquarius">
+                      <img src="images/aquarius.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
-                </div>
-                <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown pic_margin" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <div className="sign_circle bg-pisces">
-                    <img src="images/pisces.png" alt="image-missing" className="rotate" />
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-aquarius signs_clr font16">Aquarius</span><br />
+                        <span className="signtext_clr font12">Jan 20 - Feb 18</span>
+                      </div>
+                    </a>
                   </div>
-                  <a href="signs_single_post.html" className="main">
-                    <div className="sign_card text-center signs_bg">
-                      <span className="text-pisces signs_clr font16">Pisces</span><br />
-                      <span className="signtext_clr font12">Feb 19 - Mar 20</span>
+                  <div className="col-md-2 col-sm-4 col-xs-6 wow fadeInDown pic_margin" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div className="sign_circle bg-pisces">
+                      <img src="images/pisces.png" alt="image-missing" className="rotate" />
                     </div>
-                  </a>
+                    <a href="signs_single_post.html" className="main">
+                      <div className="sign_card text-center signs_bg">
+                        <span className="text-pisces signs_clr font16">Pisces</span><br />
+                        <span className="signtext_clr font12">Feb 19 - Mar 20</span>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </section>
 
   </div>
