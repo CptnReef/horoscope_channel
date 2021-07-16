@@ -220,7 +220,7 @@ function Astrology(){
                     <div className="sign_circle bg-aries">
                       <img src="images/aries-sign.png" alt="image-missing" className="rotate" />
                     </div>
-                    <div className="main">
+                    <div className="main"> 
                       <div className="sign_card text-center signs_bg">
                         <span className="text-aries signs_clr font16">Aries</span><br />
                         <span className="signtext_clr font12">Mar 21 - Apr 19</span>
