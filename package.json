@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +48,6 @@
     "url": "cptnreef"
   },
   "author": "cptnreef",
-  "license": "ISC"
+  "license": "ISC",
+  "heroku-run-build-script": true
 }
